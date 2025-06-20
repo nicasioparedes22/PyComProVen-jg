@@ -9,5 +9,7 @@ yarn-error.log
 *.psd
 env/
 env__/
+.env
+env/                   # Ignora entorno virtual (común en Python)
 .vscode/symbols.json
 app/db.sqlite3
